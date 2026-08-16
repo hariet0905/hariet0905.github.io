@@ -1,4 +1,4 @@
-# 🍥 HieuuPenguin Blog
+# 🍥 Halwk Blog
 
 ![Node.js >= 20](https://img.shields.io/badge/node.js-%3E%3D20-brightgreen)
 ![npm >= 9](https://img.shields.io/badge/npm-%3E%3D9-blue)
@@ -40,7 +40,6 @@ A static CVE and CTF writeup blog built with [Astro](https://astro.build), based
    ```
 
 3. Edit the site configuration:
-
    - `src/consts.ts` for title, description, author, avatar, navigation, and social links.
    - `astro.config.ts` for the final public `site` URL before deployment.
 
@@ -72,17 +71,17 @@ draft: false
 
 Supported fields:
 
-| Field | Type | Required | Description |
-|:------|:-----|:---------|:------------|
-| `title` | `string` | Yes | Post title |
-| `description` | `string` | No | Short summary shown in post lists |
-| `date` | `date` | No | Publish date |
-| `updated` | `date` | No | Last update date |
-| `tags` | `string[]` | No | Tags used by tag pages |
-| `category` | `string` | No | Category used by category pages |
-| `cover` | `string` | No | Local relative image path or remote URL |
-| `pinned` | `boolean` | No | Marks a post as pinned |
-| `draft` | `boolean` | No | Excludes a draft post from normal publishing |
+| Field         | Type       | Required | Description                                  |
+| :------------ | :--------- | :------- | :------------------------------------------- |
+| `title`       | `string`   | Yes      | Post title                                   |
+| `description` | `string`   | No       | Short summary shown in post lists            |
+| `date`        | `date`     | No       | Publish date                                 |
+| `updated`     | `date`     | No       | Last update date                             |
+| `tags`        | `string[]` | No       | Tags used by tag pages                       |
+| `category`    | `string`   | No       | Category used by category pages              |
+| `cover`       | `string`   | No       | Local relative image path or remote URL      |
+| `pinned`      | `boolean`  | No       | Marks a post as pinned                       |
+| `draft`       | `boolean`  | No       | Excludes a draft post from normal publishing |
 
 Recommended post structure:
 
@@ -125,12 +124,12 @@ $$
 
 All commands are run from the root of the project:
 
-| Command | Action |
-|:--------|:-------|
-| `npm install` | Install dependencies |
-| `npm run dev` | Start the local dev server at `localhost:4321` |
-| `npm run build` | Build the production site to `./dist/` |
-| `npm run preview` | Preview the production build locally |
+| Command           | Action                                         |
+| :---------------- | :--------------------------------------------- |
+| `npm install`     | Install dependencies                           |
+| `npm run dev`     | Start the local dev server at `localhost:4321` |
+| `npm run build`   | Build the production site to `./dist/`         |
+| `npm run preview` | Preview the production build locally           |
 
 ## 🌐 Deployment
 
@@ -140,7 +139,7 @@ This repository is ready for GitHub Pages deployment.
 
    ```ts
    export default defineConfig({
-     site: 'https://your-username.github.io',
+     site: "https://your-username.github.io",
    });
    ```
 
