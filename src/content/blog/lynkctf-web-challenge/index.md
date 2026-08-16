@@ -3,7 +3,7 @@ title: "LYNKCTF 2026: Tổng hợp Web Writeups"
 description: "Phân tích chi tiết các challenge Web"
 date: 2026-08-16
 tags: [CTF, Web, LYNKCTF]
-category: "LYNKCTF"
+category: "LYNKCTF 2026"
 cover: "/ctf/lynkctf.png"
 pinned: false
 draft: false
