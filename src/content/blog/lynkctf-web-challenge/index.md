@@ -4,7 +4,7 @@ description: "Phân tích chi tiết các challenge Web"
 date: 2026-08-16
 tags: [CTF, Web, LYNKCTF]
 category: "LYNKCTF 2026"
-cover: "/ctf/lynkctf.png"
+cover: "/ctf/lynkctf-2026.png"
 pinned: false
 draft: false
 ---
