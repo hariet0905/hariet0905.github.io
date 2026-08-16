@@ -1,8 +1,12 @@
 ---
 title: "LYNKCTF 2026: Tổng hợp Web Writeups"
 description: "Phân tích chi tiết các challenge Web"
-pubDate: "2026-08-16"
-ctf: "LYNKCTF"
+date: 2026-08-16
+tags: [CTF, Web, LYNKCTF]
+category: "LYNKCTF"
+cover: "/ctf/lynkctf.png"
+pinned: false
+draft: false
 ---
 
 Đang chuyển hướng sang bài viết gốc trên Notion...
